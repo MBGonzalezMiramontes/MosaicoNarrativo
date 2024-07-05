@@ -11,18 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const section = document.querySelector(".section").offsetTop;
     const row2 = document.querySelector(".row2").offsetTop;
     const row3 = document.querySelector(".row3").offsetTop;
-    const row4 = document.querySelector(".row4").offsetTop;
     const row5 = document.querySelector(".row5").offsetTop;
     const row6 = document.querySelector(".row6").offsetTop;
     const row7 = document.querySelector(".row7").offsetTop;
-    const row8 = document.querySelector(".row8").offsetTop;
+    const row = document.querySelector(".row").offsetTop;
     const row11 = document.querySelector(".row11").offsetTop;
-    const credits = document.querySelector(".créditos").offsetTop;
-
+   
     if (scrollPosition >= row11) {
       fadeOutAllExcept(audio3);
       audio3.play();
-    } else if (scrollPosition >= row8) {
+    } else if (scrollPosition >= row) {
       fadeOutAllExcept(audio4);
       audio4.play();
     } else if (scrollPosition >= row7) {
