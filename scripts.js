@@ -28,8 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
       audio3.play();
       audio2.play();
     } else if (scrollPosition >= row6) {
-      fadeOutAllExcept(audio5);
+      fadeOutAllExcept(audio5, audio2);
       audio5.play();
+      audio2.play();
     } else if (scrollPosition >= row5) {
       fadeOutAllExcept(audio3);
       audio3.play();
