@@ -16,17 +16,17 @@ body {
   padding-bottom: 45px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .row1 div {
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 300px;
 }
 
 .row1 img {
-  max-height: 140%;
+  height: 80%;
   width: auto;
   border: 3px solid #000;
 }
@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: left;
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 90px;
 }
 
 .row4 img {
@@ -61,7 +61,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 143px;
-  padding-bottom: 90px;
+  padding-bottom: 135px;
   margin: -98px;
 }
 
@@ -91,7 +91,7 @@ body {
 .row6 img {
   height: 100%;
   width: auto;
-  border: 2px solid #000;
+  border: 3px solid #000;
 }
 
 .row7 {
@@ -109,7 +109,7 @@ body {
 }
 
 .row7 img {
-  max-height: 140%;
+  max-height: 80%;
   width: auto;
   border: 3px solid #000;
 }
@@ -119,7 +119,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 90px;
-  padding-bottom: 90px;
+
   margin-left: -98px;
   margin-right: -98px;
   height: auto;
@@ -128,6 +128,51 @@ body {
 .row8 img {
   width: 100%;
   height: auto;
+}
+
+.row9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -98px;
+  margin-right: -98px;
+  background-color: black;
+  padding-bottom: 15px;
+}
+
+.row9 img {
+  width: 50%;
+}
+
+.row10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -98px;
+  margin-right: -98px;
+}
+
+.row10 img {
+  width: 100%;
+}
+
+.row4 img {
+  width: 60%;
+  border: 3px solid #000;
+}
+
+.row11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -90px;
+  padding-bottom: 135px;
+  margin-left: -98px;
+  margin-right: -98px;
+}
+
+.row11 img {
+  width: 100%;
 }
 
 .créditos {
