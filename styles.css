@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-top: 90px;
+}
+
+.row1 {
+  padding-top: 90px;
+  padding-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row1 div {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.row1 img {
+  max-height: 140%;
+  width: auto;
+  border: 3px solid #000;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.row2 img {
+  width: 65%;
+  border: 3px solid #000;
+}
+
+.row4 {
+  display: flex;
+  justify-content: left;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.row4 img {
+  width: 60%;
+  border: 3px solid #000;
+}
+
+.row5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 143px;
+  padding-bottom: 90px;
+  margin: -98px;
+}
+
+.row5 img {
+  width: 100%;
+}
+
+.row6 {
+  padding-top: 135px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  padding-top: 90px;
+  gap: 20px; /* Espacio entre los GIFs */
+}
+
+.row6 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  height: 100%;
+}
+
+.row6 img {
+  height: 100%;
+  width: auto;
+  border: 2px solid #000;
+}
+
+.row7 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row7 div {
+  display: flex;
+  justify-content: center;
+  height: 620px;
+}
+
+.row7 img {
+  max-height: 140%;
+  width: auto;
+  border: 3px solid #000;
+}
+
+.row8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-left: -98px;
+  margin-right: -98px;
+  height: auto;
+}
+
+.row8 img {
+  width: 100%;
+  height: auto;
+}
+
+.créditos {
+  display: flex;
+  align-items: center;
+}
+
+.créditos img {
+  width: 100%;
+}
