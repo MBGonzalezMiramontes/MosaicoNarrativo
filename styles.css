@@ -561,14 +561,16 @@
   .row1 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
     padding-bottom: 90px;
   }
 
   .row1 div {
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 105px;
+    background-color: ;
   }
 
   .row1 img {
@@ -629,7 +631,7 @@
     height: 160px;
     padding-left: 70px;
     padding-right: 70px;
-    gap:3px;
+    gap: 3px;
   }
 
   .row6 div {
