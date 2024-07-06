@@ -522,14 +522,14 @@
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    max-width: 500px;
+    max-width: 100%;
     text-align: center;
   }
 
   .close {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
   }
 
@@ -548,8 +548,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
     margin-top: -10px;
     padding-bottom: 45px;
   }
@@ -562,15 +560,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 90px;
   }
 
   .row1 div {
     display: flex;
     justify-content: center;
-    height: 105px;
-    background-color: ;
+    height: 100px;
   }
 
   .row1 img {
@@ -794,14 +791,14 @@
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    max-width: 500px;
+    max-width: 100%;
     text-align: center;
   }
 
   .close {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: bold;
   }
 
