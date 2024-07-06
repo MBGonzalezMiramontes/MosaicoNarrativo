@@ -23,16 +23,18 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 30px;
   }
 
-  .row1 div {
+  /* .row1 div {
     display: flex;
     justify-content: center;
     height: 350px;
-  }
+  } */
 
   .row1 img {
-    height: 80%;
+    height: 300px;
+
     width: auto;
     border: 3px solid #000;
   }
@@ -307,13 +309,8 @@
     padding-bottom: 135px;
   }
 
-  .row1 div {
-    display: flex;
-    justify-content: center;
-    height: 200px;
-  }
-
   .row1 img {
+    height: 200px;
     width: auto;
     border: 2px solid #000;
   }
@@ -560,17 +557,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding-bottom: 90px;
   }
 
-  .row1 div {
-    display: flex;
-    justify-content: center;
-    height: 100px;
-  }
-
   .row1 img {
+    height: 80px;
     width: auto;
     border: 2px solid #000;
   }
